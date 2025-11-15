@@ -1,0 +1,12 @@
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 100 // revisa cambios cada 100ms
+    },
+    host: true,
+    strictPort: true
+  }
+})

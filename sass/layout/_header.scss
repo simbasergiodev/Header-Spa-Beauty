@@ -1,0 +1,40 @@
+.header {
+    padding-top: 35px;
+    padding-bottom: 65px;
+    margin-bottom: 38px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 95%;
+
+        > a.logo {
+        display: flex;
+        align-items: center;
+        }
+
+        .nav-principal {
+        margin-left: 180px; // 🔹 controla aquí la separación del logo
+        margin-right: auto; // mantiene el menú alineado antes del login
+        }
+        
+        .header-login {
+            ul {
+                @include reset-list();
+                display: inline-flex;
+                align-items: center;
+                font-size: 16px;
+                gap: 24px;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul.icons {
+                margin-right: 70px;
+                gap: 30px;
+            }
+        }
+
+    }
+    
+}

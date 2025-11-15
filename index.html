@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>CSS Tarea 01 - Header Spa & Beauty</title>
+
+  </head>
+
+  <body>
+    <div class="background">
+      <img src="img/background.png" alt="Fondo Hero" class="background__green">
+      <img src="img/girl_background.png" alt="Mujer Glow Skin" class="background__girl">
+      <div class="background__gray"></div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <a href="">
+          <img src="img/glowqueen_logo.svg" alt="Logotipo de GlowQueen" class="logo">
+        </a>
+        
+        <nav class="nav-principal">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">More<img src="img/Arrow.svg" alt="icon_arrow" class="icon_arrow"></a></li>
+          </ul>
+        </nav>
+
+        <div class="header-login">
+          <ul class="icons">
+            <li><a href="" class="search"><img src="img/search.svg" alt=""></a></li>
+            <li><a href="" class="cart"><img src="img/cart.svg" alt=""></a></li>
+          </ul>
+          <ul>
+            <li><a href="">Sign in</a></li>
+            <li><a class="button" href="">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">Bring back the beauty and glow of your skin</h1>
+            <p class="hero__subtitle">We provide you various treatments from head to toe using the best product, 
+              advanced technology, and affordable price</p>
+            <p class="hero__buttons">
+              <a href="#" class="button">Book Now</a>
+              <a href="#" class="button_play" aria-label="Play video">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    width="24" height="24" 
+                    fill="currentColor">
+                  <circle cx="12" cy="12" r="12" fill="currentColor" opacity="0"/>
+                  <polygon points="10,8 16,12 10,16" fill="currentColor"/>
+                </svg>
+              </a>
+              <span>Watch Video</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="categories">
+        <article class="category">
+          <img src="img/special_treatment.svg" alt="">
+          <span class="category__number">15+</span>
+          <span class="category__text">Special Treatment</span>
+        </article>
+
+        <article class="category">
+          <img src="img/professional_therapist.svg" alt="">
+          <span class="category__number">25+</span>
+          <span class="category__text">Professional Therapist</span>
+        </article>
+
+        <article class="category">
+          <img src="img/herbal_cream.svg" alt="">
+          <span class="category__number">100%</span>
+          <span class="category__text">Herbal <br>Cream Formula</br></span>
+        </article>
+      </div>
+
+      <div class="comments">
+        <div class="comment1">
+          <img src="/img/“.svg" alt="">
+          <p class="comment1__text"> I have a regular schedule to take treatment from GlowQueen, they gave me the best 
+          service and treatment ever to maintain the beauty and health of my skin</p>
+          <span class="comment1__author">Sophia Princeton</span>
+        </div>
+
+        <div class="comment2">
+          <img src="/img/“.svg" alt="">
+          <p class="comment2__text"> For the past few years, I've had a hard time finding the right place for skin 
+          care to deal with my complicated skin condition, thank God I found GlowQueen to treat my skin</p>
+          <span class="comment2__author">Tamara Jules</span>
+        </div>
+      </div>
+
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

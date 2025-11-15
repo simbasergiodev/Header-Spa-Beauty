@@ -1,0 +1,71 @@
+@mixin breakpoint($bp) {
+  @if $bp == tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp == tablethorizontal {
+    @media (min-width: $bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp == desktop {
+    @media (min-width: $bp-desktop) {
+      @content;
+    }
+  }
+
+  @if $bp == desktopxl {
+    @media (min-width: $bp-desktop-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin reset-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin button($bg-color: $dark-blue, $color: white) {
+  background-color: $bg-color;
+  color: $color;
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 40px;
+  font-size: 16px;
+  border-radius: 28px;
+  font-weight: 400;
+  &:hover {
+    background-color: white;
+    opacity: 0.8;
+    color: $dark-blue
+  }
+}
+
+@mixin button_play($bg-color: white, $color: $dark-blue) {
+  background-color: $bg-color;
+  color: $color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.1s ease;
+  border: none;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+
+  svg {
+    width: 45px;
+    height: 45px;
+    fill: currentColor;
+    transition: fill 0.3s;
+  }
+
+  &:hover {
+    background-color: $dark-blue;
+    color: white;
+  }
+}
