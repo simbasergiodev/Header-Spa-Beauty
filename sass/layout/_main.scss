@@ -1,6 +1,6 @@
 .categories {
-    width: 650px;
-    background-color: rgba(255, 255, 255, 0.6);
+    width: 550px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -8,7 +8,7 @@
     margin: 0 auto;
     gap: 30px;
     text-align: center;
-    margin-left: 215px;
+    margin-left: 190px;
     border-radius: 12px;
 
     .category {
@@ -18,23 +18,21 @@
         align-items: center;
 
         &__number {
-            font-size: 40px;
-            font-weight: 600;
+            font-size: 32px;
+            font-weight: 500;
             color: $dark-blue;
             margin-bottom: 24px;
         }
 
         &__text {
-            width: 160px;
             font-size: 18px;
             color: $grey;
-            font-weight: 500;
         }
     }
 
     .category img {
-        width: 80px;            
-        height: 80px;           
+        width: 70px;            
+        height: 70px;           
         object-fit: contain;        
         background-color: #c8e6e0;   
         border-radius: 50%;       
@@ -50,11 +48,11 @@
     .comment1 {
     position: absolute;
     background-color: rgba(240, 240, 240, 0.6);
-    right: 70px;
-    bottom: 300px;
+    right: 40px;
+    bottom: 270px;
     border-radius: 16px;
-    width: 410px;
-    height: 250px;
+    width: 395px;
+    height: 230px;
 
         img {
             width: 30px;
@@ -66,7 +64,7 @@
         }
 
         &__text {
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 500;
             padding: 0px 25px;
             line-height: 1.5;
@@ -74,7 +72,7 @@
         }
 
         &__author {
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 800;
             color: $dark-blue;
             padding: 0px 25px;
@@ -85,11 +83,11 @@
     .comment2 {
     position: absolute;
     background-color: rgba(240, 240, 240, 0.6);
-    right: 220px;
-    bottom: -30px;
+    right: 160px;
+    bottom: -20px;
     border-radius: 16px;
-    width: 410px;
-    height: 250px;
+    width: 395px;
+    height: 230px;
 
         img {
             width: 30px;
@@ -101,7 +99,7 @@
         }
 
         &__text {
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 500;
             padding: 0px 25px;
             line-height: 1.5;
@@ -109,7 +107,7 @@
         }
 
         &__author {
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 800;
             color: $dark-blue;
             padding: 0px 25px;

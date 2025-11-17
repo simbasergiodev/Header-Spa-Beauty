@@ -1,42 +1,40 @@
 .hero {
-    margin-bottom: 100px;
+    margin-bottom: 85px;
     margin-left: 50px;
 
     &__title {
-        font-size: 64px;
-        margin-bottom: 50px;
-        font-weight: 800;
+        font-size: 60px;
+        margin-bottom: 24px;
         line-height: 1.2;
-        max-width: 750px;
+        max-width: 700px;
         font-family: $primary-font;
         color: $dark-blue;
     }
 
     &__subtitle {
-        font-size: 24px;
-        margin-bottom: 50px;
-        max-width: 750px;
+        font-size: 22px;
+        margin-bottom: 32px;
+        max-width: 700px;
         line-height: 1.6;
         color: $grey;
+        margin-bottom: 50px;
     }
 
     &__buttons {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 6px;
 
         .button{
             margin-right: 45px;
         }
 
         .button_play {
-            margin-right: 8px;
+            margin-right: 5px;
         }
 
         span {
             color: $dark-blue;
-            font-size: 18px;
-            font-weight: 500;
         }
     }
 }
